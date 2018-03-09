@@ -1,3 +1,7 @@
+body {
+    background-image: url("./assets/images/crystalbackground.jpg");
+}
+
 h1 {
     background-color: orange;
     margin-right: 80%;
@@ -12,4 +16,21 @@ h1 {
     padding-top: 1%;
     padding-bottom: 5%;
     margin-right: 70%;
+}
+
+img {
+    width: 75px;
+    background-color: white;
+    padding: 1%;
+}
+
+#random-number {
+    background-color: green;
+}
+
+#scoreis {
+    background-color:  cadetblue;
+    color: white;
+    padding-left: 1%;
+    margin-right: 80%;
 }
