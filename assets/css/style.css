@@ -1,0 +1,15 @@
+h1 {
+    background-color: orange;
+    margin-right: 80%;
+    padding-left: 1%;
+}
+
+#instructions {
+    background-color: moccasin;
+    color: darkgreen;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-right: 70%;
+}
