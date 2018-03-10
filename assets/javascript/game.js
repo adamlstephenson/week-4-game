@@ -11,18 +11,29 @@ var totalScore = 0;
 
 $("document").ready(function() {
 
-    // Generate and show random number
+    // function startGame() {
+                // Generate and show random number
 
-    $("#random-number").text(Math.floor(Math.random() * 101) +19);
+        $("#random-number").text(Math.floor(Math.random() * 101) +19);
+
+                // Assign random numbers to  crystals
+
+        var crystal = Math.floor(Math.random() * 11) +1;
+        console.log(crystal);
+        var emerald = Math.floor(Math.random() * 11) +1;
+        var sapphire = Math.floor(Math.random() * 11) +1;
+        var zircon = Math.floor(Math.random() * 11) +1;
+
+    // }
+
+
 
     // Show wins and losses
 
-    $("#wins").text("wins " + wins);
-    $("#losses").text("losses " + losses);
+    $("#wins").text("wins   " + wins);
+    $("#losses").text("losses   " + losses);
 
     // Show totalScore
-
-    // Assign random numbers to  crystals
 
     // Set up click events
         // Print the value of each crystal that is clicked
