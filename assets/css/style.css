@@ -18,14 +18,41 @@ h1 {
     margin-right: 70%;
 }
 
+#random-number {
+    margin-right: 85%;
+    margin-top: 1%;
+    font-size: xx-large;
+    padding-left: 1%;
+    padding-bottom: 7%;
+    background-color: mediumseagreen;
+}
+
+#wins-losses {
+    background-color: mediumturquoise;
+    margin-left: 16%;
+    margin-right: 75%;
+    position: relative;
+    padding-top: 30px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    bottom: 135px;
+
+}
+
+#wins, #losses {
+    text-align: center;
+    font-size: medium;
+}
+
+#crystals {
+    position: relative;
+    bottom: 125px;
+}
+
 img {
     width: 75px;
     background-color: white;
     padding: 1%;
-}
-
-#random-number {
-    background-color: green;
 }
 
 #scoreis {
@@ -33,4 +60,6 @@ img {
     color: white;
     padding-left: 1%;
     margin-right: 80%;
+    position: relative;
+    bottom: 125px;
 }

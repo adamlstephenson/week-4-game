@@ -13,7 +13,12 @@ $("document").ready(function() {
 
     // Generate and show random number
 
+    $("#random-number").text(Math.floor(Math.random() * 101) +19);
+
     // Show wins and losses
+
+    $("#wins").text("wins " + wins);
+    $("#losses").text("losses " + losses);
 
     // Show totalScore
 
