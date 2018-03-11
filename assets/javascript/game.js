@@ -42,11 +42,13 @@ $("document").ready(function() {
 
     // Show totalScore
 
+    $("#scorecounter").text(totalScore);
+
     // Set up click events
 
         $("#crystals").on("click", "img", function (event) {
            
-                console.log(crystal);
+                $("#scorecounter").text(zircon);
         });;
         // Print the value of each crystal that is clicked
             // Add values to existing totalScore
