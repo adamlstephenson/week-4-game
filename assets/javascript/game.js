@@ -19,7 +19,6 @@ $("document").ready(function() {
                 // Assign random numbers to  crystals
 
         var crystal = Math.floor(Math.random() * 11) +1;
-        console.log(crystal);
         var emerald = Math.floor(Math.random() * 11) +1;
         var sapphire = Math.floor(Math.random() * 11) +1;
         var zircon = Math.floor(Math.random() * 11) +1;
@@ -36,6 +35,11 @@ $("document").ready(function() {
     // Show totalScore
 
     // Set up click events
+
+        $("#crystals").on("click", "img", function (event) {
+           
+                console.log(event.target);
+        });;
         // Print the value of each crystal that is clicked
             // Add values to existing totalScore
 
