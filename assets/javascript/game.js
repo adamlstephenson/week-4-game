@@ -46,9 +46,30 @@ $("document").ready(function() {
         // Print the value of each crystal that is clicked
             // Add values to existing totalScore
 
-        $("#crystals").on("click", "img", function(event) {
-           
-                $("#scorecounter").html(totalScore + event.value);
+        $("#crystal").on("click", function() {
+            totalScore += parseInt(crystal);
+                $("#scorecounter").text(totalScore);
+                    if (totalScore === randomNumber) {
+                        $("#result").text("You won!");
+                        wins++;
+                        $("#wins").text(wins);
+                    // gameStart();
+                    } 
+                    else if (totalScore > randomNumber) {
+                        $("#result").text("You lost");
+                        losses++;
+                        $("#losses").text(losses);
+                        // gameStart ();
+                    }
+
+            
+        });
+
+        $("#emerald").on("click", function() {
+            totalScore += parseInt(emerald);
+                $("#scorecounter").text(totalScore);
+                       
+                //totalScore = this value + new value
 
                    if (totalScore === randomNumber) {
                        $("#result").text("You won!");
@@ -58,16 +79,51 @@ $("document").ready(function() {
                    } 
                    else if (totalScore > randomNumber) {
                        $("#result").text("You lost");
-                       losses--;
+                       losses++;
                        $("#losses").text(losses);
                        // gameStart ();
                    }
-
-
-
-
         });
 
+        $("#sapphire").on("click", function() {
+            totalScore += parseInt(sapphire);
+                $("#scorecounter").text(totalScore);
+                               
+                        //totalScore = this value + new value
+        
+                    if (totalScore === randomNumber) {
+                        $("#result").text("You won!");
+                        wins++;
+                        $("#wins").text(wins);
+                              // gameStart();
+                    } 
+                    else if (totalScore > randomNumber) {
+                        $("#result").text("You lost");
+                        losses++;
+                        $("#losses").text(losses);
+                               // gameStart ();
+                    }
+        });
+
+        $("#zircon").on("click", function() {
+            totalScore += parseInt(zircon);
+                $("#scorecounter").text(totalScore);
+                               
+                        //totalScore = this value + new value
+        
+                    if (totalScore === randomNumber) {
+                        $("#result").text("You won!");
+                        wins++;
+                        $("#wins").text(wins);
+                              // gameStart();
+                    } 
+                    else if (totalScore > randomNumber) {
+                        $("#result").text("You lost");
+                        losses++;
+                        $("#losses").text(losses);
+                               // gameStart ();
+                    }
+        });
 
     // If totalScore === random number then add win and start over
         // Else if score goes above random number then add loss anf start over
@@ -81,5 +137,3 @@ $("document").ready(function() {
 
 
 
-// Game Process
-//========================================================
