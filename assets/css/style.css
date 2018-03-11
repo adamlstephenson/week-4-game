@@ -40,7 +40,7 @@ h1 {
 
 }
 
-#wins, #losses {
+#wins, #losses, #result {
     text-align: center;
     font-size: medium;
 }
