@@ -61,13 +61,13 @@ $("document").ready(function() {
                     if (totalScore === randomNumber) {
                         $("#result").text("You won!");
                         wins++;
-                        $("#wins").text(wins);
+                        $("#wins").text("Wins: " + wins);
                     gameStart();
                     } 
                     else if (totalScore > randomNumber) {
                         $("#result").text("You lost");
                         losses++;
-                        $("#losses").text(losses);
+                        $("#losses").text("Losses: " + losses);
                     gameStart ();
                     }   
         });
@@ -79,13 +79,13 @@ $("document").ready(function() {
                    if (totalScore === randomNumber) {
                        $("#result").text("You won!");
                        wins++;
-                       $("#wins").text(wins);
+                       $("#wins").text("Wins: " + wins);
                     gameStart();
                    } 
                    else if (totalScore > randomNumber) {
                        $("#result").text("You lost");
                        losses++;
-                       $("#losses").text(losses);
+                       $("#losses").text("Losses: " + losses);
                     gameStart ();
                    }
         });
@@ -97,13 +97,13 @@ $("document").ready(function() {
                     if (totalScore === randomNumber) {
                         $("#result").text("You won!");
                         wins++;
-                        $("#wins").text(wins);
+                        $("#wins").text("Wins: " + wins);
                     gameStart();
                     } 
                     else if (totalScore > randomNumber) {
                         $("#result").text("You lost");
                         losses++;
-                        $("#losses").text(losses);
+                        $("#losses").text("Losses: " + losses);
                     gameStart ();
                     }
         });
@@ -115,13 +115,13 @@ $("document").ready(function() {
                     if (totalScore === randomNumber) {
                         $("#result").text("You won!");
                         wins++;
-                        $("#wins").text(wins);
+                        $("#wins").text("Wins: " + wins);
                     gameStart();
                     } 
                     else if (totalScore > randomNumber) {
                         $("#result").text("You lost");
                         losses++;
-                        $("#losses").text(losses);
+                        $("#losses").text("Losses: " + losses);
                     gameStart ();
                     }
         });
