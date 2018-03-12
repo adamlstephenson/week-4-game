@@ -30,7 +30,7 @@ $("document").ready(function() {
 
     function gameStart() {
 
-        var randomNumber = Math.floor(Math.random() * 101) +19;
+        randomNumber = Math.floor(Math.random() * 101) +19;
         $("#random-number").text(randomNumber);
 
         crystal = Math.floor(Math.random() * 11) +1;
