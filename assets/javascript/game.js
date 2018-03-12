@@ -24,6 +24,7 @@ $("document").ready(function() {
     console.log(zircon);  
 
     // Show wins and losses
+    $("#result").text("Let's go!");
     $("#wins").text("Wins: " + wins);
     $("#losses").text("Losses: " + losses);
     
