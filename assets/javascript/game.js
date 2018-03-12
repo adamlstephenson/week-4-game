@@ -24,8 +24,8 @@ $("document").ready(function() {
     console.log(zircon);  
 
     // Show wins and losses
-    $("#wins").text("wins   " + wins);
-    $("#losses").text("losses   " + losses);
+    $("#wins").text("Wins: " + wins);
+    $("#losses").text("Losses: " + losses);
     
 
     function gameStart() {
@@ -43,7 +43,7 @@ $("document").ready(function() {
         $("#sapphire").val(sapphire);
         console.log(sapphire);
         zircon = Math.floor(Math.random() * 11) +1;
-        $("#zircon").val(zircon)
+        $("#zircon").val(zircon);
         console.log(zircon);
 
         totalScore = 0
